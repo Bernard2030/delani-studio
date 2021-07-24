@@ -20,7 +20,6 @@ h3{
 
 .good{
    
-    background-image: url ("../img/wall.jpg");
     height: 100%;
     background-repeat: no-repeat;
     
@@ -29,7 +28,7 @@ h3{
 .good-text a {
     text-decoration: none;
 }
-.mouse{
+.mouse {
     animation: bounce 5s infinite;
     padding-top: 100px;
     text-align: center;
@@ -103,7 +102,7 @@ h3{
     align-self: center;
     align-items: center;
 }
-.add1, .add2, .add3, .add4{
+.add1, .add2, .add3, .add4, .add5, .add6, .add7, .add8{
     display: none;
 } 
 
@@ -206,4 +205,12 @@ footer div a{
 }
   
 
-
+/* media queries */
+@media (max-width: 768px) {
+    .intro h1 {
+      font-size: 2em;
+    }
+    .mouse_click {
+      padding-top: 80px;
+    }
+  }
