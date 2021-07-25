@@ -28,7 +28,7 @@ h3{
 .good-text a {
     text-decoration: none;
 }
-.mouse {
+.mouse-one {
     animation: bounce 5s infinite;
     padding-top: 100px;
     text-align: center;
