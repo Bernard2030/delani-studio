@@ -1,79 +1,91 @@
 // Business logic:
 
 // manipulating what we do
+
+
 $(document).ready(function(){
-    $(".onCheck1").click(function(){
-        $("#click1").toggle();
-        $("#hideOne").show();
+    $(".onCheck3").click(function(){
+        $(".click3").toggle();
+        $("#hideThree").toggle();
     });
-
- $(".onCheck2").click(function(){
-    $("#click2").toggle();
-    $("#hideTwo").toggle();
+    $(".onCheck2").click(function(){
+        $(".click2").toggle();
+        $("#hideTwo").toggle();
+    });
+    $(".onCheck1").click(function(){
+        $(".click1").toggle();
+        $("#hideOne").toggle();
+    })
 });
-$(".onCheck3").click(function(){
-    $("#click3").toggle();
-    $("#hideThree").toggle();
-});
-$("#hideOne").click(function(){
-    $("#hideOne").toggle();
-    $(".onCheck1").toggle();
-});
-$("#hideTwo").click(function(){
-    $("#hideTwo").toggle();
-    $(".onCheck2").toggle();
-});
-$("#hideThree").click(function(){
-    $("hideThree").toggle();
-    $("coCheck3").toggle();
-});
-
-});
-
 
 // manipulating the portfolio
 
 $(document).ready(function(){
-    $("#projectOne").hover(function(){
-        $(".add1").slideToggle();
-    });
-});
-$(document).ready(function(){
-    $("#projectTwo").hover(function(){
-        $(".add2").slideToggle();
-    });
-});
-$(document).ready(function(){
-    $("#projectThree").hover(function(){
-        $(".add3").slideToggle();
-    });
-});
-$(document).ready(function(){
-    $("#projectFour").hover(function(){
-        $(".add4").slideToggle();
-    });
-});
-$(document).ready(function(){
-    $("#projectFive").hover(function(){
-        $(".add5").slideToggle();
-    });
-});
-$(document).ready(function(){
-    ("#projectSix").hover(function(){
-        $(".add6").slideToggle();
-    });
-});
-$(document).ready(function(){
-  $("#projectSeven").hover(function(){
-      $(".add7").slideToggle();
-  });
-});
-$(document).ready(function(){
-    $("#projectEight").hover(function(){
-        $(".add8").slideToggle();
-    });
-});
-
+    $(".portfolio1").hover( () => {
+        $(".add1").show({opacity: 5}, 5);
+    },
+        () => {
+        $(".add1").hide({opacity: 1}, 5);
+        }
+    )
+    
+    $(".portfolio2").hover( () => {
+        $(".add2").show({opacity: 1}, 5);
+    },
+        () => {
+        $(".add2").hide({opacity: 1}, 5);
+        }
+    )
+    
+    $(".portfolio3").hover( () => {
+        $(".add3").show({opacity: 1}, 5);
+    },
+        () => {
+        $(".add3").hide({opacity: 1}, 5);
+        }
+    )
+    
+    $(".portfolio4").hover( () => {
+        $(".add4").show({opacity: 1}, 5);
+    },
+        () => {
+        $(".add4").hide({opacity: 1}, 5);
+        }
+    )
+    
+    $(".portfolio5").hover( () => {
+        $(".add5").show({opacity: 1}, 5);
+    },
+        () => {
+        $(".add5").hide({opacity: 1}, 5);
+        }
+    )
+    
+    $(".portfolio6").hover( () => {
+        $(".add6").show({opacity: 1}, 5);
+    },
+        () => {
+        $(".add6").hide({opacity: 1}, 5);
+        }
+    )
+    
+    $(".portfolio7").hover( () => {
+        $(".add7").show({opacity: 1}, 5);
+    },
+        () => {
+        $(".add7").hide({opacity: 1}, 5);
+        }
+    )
+    
+    $(".portfolio8").hover( () => {
+        $(".add8").show({opacity: 1}, 5);
+    },
+        () => {
+        $(".add8").hide({opacity: 1}, 5);
+        }
+    )
+    
+})
 // user interface:
 // getting the form
 

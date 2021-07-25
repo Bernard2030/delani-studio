@@ -103,7 +103,21 @@ h3{
     align-items: center;
 }
 .add1, .add2, .add3, .add4, .add5, .add6, .add7, .add8{
-    display: none;
+  display: none; 
+  padding: 30px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 6px solid;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: x-large;
+    
 } 
 
 
@@ -203,14 +217,11 @@ h2{
 footer div a{
     text-decoration: none;
 }
-  
+
 
 /* media queries */
 @media (max-width: 768px) {
     .intro h1 {
-      font-size: 2em;
+    font-size: 2em;
     }
-    .mouse_click {
-      padding-top: 80px;
-    }
-  }
+}
