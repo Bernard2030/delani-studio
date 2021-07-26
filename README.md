@@ -1,6 +1,6 @@
 #### DELANI STUDIO
 # Delani studio is; a fictional  studio to showcase Delani's services and a way for clients to give their feedback through the contact form.
-#### Created Bernard Opiyo Mukhenye on 22/07/2021
+#### Created by Bernard Opiyo Mukhenye on 22/07/2021
 #### Description
 
 Delani Studio specializes in designs and software to suit users needs. Our approach involves design, development and product management to create exceptional products.
