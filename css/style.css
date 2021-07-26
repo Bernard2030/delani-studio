@@ -1,109 +1,110 @@
-body{
-    border: 20px solid white;
-    align-content: center;
-    
+body {
+  border: 20px solid white;
+  align-content: center;
 }
-h2{
-    font-size: 16px;
+h2 {
+  font-size: 16px;
 }
-h3{
-    padding-top: 11px;
+h3 {
+  padding-top: 11px;
 }
 /* welcome */
 
-.begin{
-    background-image: url('../img/yellow\ wall.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 750px;
+.begin {
+  background-image: url("../img/yellow\ wall.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 750px;
 }
 
-.good{
-   
-    height: 100%;
-    background-repeat: no-repeat;
-    
-    background-size: cover;
+.good {
+  height: 100%;
+  background-repeat: no-repeat;
+
+  background-size: cover;
 }
 .good-text a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .mouse-one {
-    animation: bounce 5s infinite;
-    padding-top: 100px;
-    text-align: center;
+  animation: bounce 5s infinite;
+  padding-top: 100px;
+  text-align: center;
 }
 
-
-.part-one{
-    color: azure;
-    text-align: center;
+.part-one {
+  color: azure;
+  text-align: center;
 }
-.good-text{
-    padding-top: 15%;
-    color: white;
-    font-size: 13px;
+.good-text {
+  padding-top: 15%;
+  color: white;
+  font-size: 13px;
 }
-.mouse-icon{
-  padding-top: 8%;  
-}  
+.mouse-icon {
+  padding-top: 8%;
+}
 
 /* our services */
 
- .our-services{
-    background-image: url('../img/lappy.jpg');
-    background-repeat: no-repeat;
-    padding: 90px;
+.our-services {
+  background-image: url("../img/lappy.jpg");
+  background-repeat: no-repeat;
+  padding: 90px;
 }
 
-.service{
-    color: #ffffff;
-    font-size: large;
+.service {
+  color: #ffffff;
+  font-size: large;
 }
- 
 
 /* our work */
 
- .our-work{
-    padding: 55px;
+.our-work {
+  padding: 55px;
 }
 
-.our-work-text{
-    font-size: large;
+.our-work-text {
+  font-size: large;
 }
 
 #hideOne,
 #hideTwo,
-#hideThree{
-    display: none;
+#hideThree {
+  display: none;
 }
 
-.table{
-    margin-left: 19px;
-    padding-top: 21px;
-    margin-right: 21px;
+.table {
+  margin-left: 19px;
+  padding-top: 21px;
+  margin-right: 21px;
 }
 
-.caption{
-    font-size: medium;
+.caption {
+  font-size: medium;
 }
 
-.bye{
-    display: none;
-} 
-
-
+.bye {
+  display: none;
+}
 
 /* portfolio */
 
- .port{
-    align-content: center;
-    padding-bottom: 40px;
-    align-self: center;
-    align-items: center;
+.port {
+  align-content: center;
+  padding-bottom: 40px;
+  align-self: center;
+  align-items: center;
 }
-.add1, .add2, .add3, .add4, .add5, .add6, .add7, .add8{
-  display: none; 
+.add1,
+.add2,
+.add3,
+.add4,
+.add5,
+.add6,
+.add7,
+.add8 {
+  display: none;
   padding: 30px;
   color: white;
   position: absolute;
@@ -117,111 +118,105 @@ h3{
   text-transform: uppercase;
   font-weight: 700;
   font-size: x-large;
-    
-} 
-
+}
 
 /* contact us */
 
- .contact{
-    background-image: url('../img/machine.jpg');
-    background-repeat: no-repeat;
-    padding-top: 36px;
-    padding-bottom: 40px;
-    color: #ffffff;
-    
+.contact {
+  background-image: url("../img/machine.jpg");
+  background-repeat: no-repeat;
+  padding-top: 36px;
+  padding-bottom: 40px;
+  color: #ffffff;
 }
 
-.us{
-    color: #ffffff;
-    font-size: 12px;
+.us {
+  color: #ffffff;
+  font-size: 12px;
 }
 .ourForm-input {
-    font-size: 12px;
-    padding: 5px 10px 10px 5px;
-    display: block;
-    width: 100%;
-    background: transparent;
-    color: white;
+  font-size: 12px;
+  padding: 5px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  background: transparent;
+  color: white;
 }
 
- form .contact-us {
-    background: transparent;
-    padding-top: 20px;
+form .contact-us {
+  background: transparent;
+  padding-top: 20px;
 }
 
 form.contact-us input,
 form.contact-us textarea,
 div .contact-btn button {
-    padding: 7px  5px;
-    border: 1px solid #ffffff;
-    color: white;
-    background: transparent;
-    
+  padding: 7px 5px;
+  border: 1px solid #ffffff;
+  color: white;
+  background: transparent;
 }
 
-#email{
-    width: 26%;
-    margin-left: 20px;
+#email {
+  width: 26%;
+  margin-left: 20px;
 }
 
-#name{
-    width: 26%;
+#name {
+  width: 26%;
 }
 
-.name-input{
-    margin-right: 30%;
+.name-input {
+  margin-right: 30%;
 }
 
-.form-group{
-    margin-left: 32%;
+.form-group {
+  margin-left: 32%;
 }
 
-div.contact-btn button{
-    font-size: 15px;
-    font-weight: 700;
-    transition: border 0.2s;
-    padding: 7px 10px;
-    width: 150px;
+div.contact-btn button {
+  font-size: 15px;
+  font-weight: 700;
+  transition: border 0.2s;
+  padding: 7px 10px;
+  width: 150px;
 }
 
-div.contact-btn button:hover{
-    border: 2px solid #ffffff;
+div.contact-btn button:hover {
+  border: 2px solid #ffffff;
 }
 
-#button{
-    background: transparent;
-    color: #ffffff;
-} 
+#button {
+  background: transparent;
+  color: #ffffff;
+}
 
 /* section footer */
 
- .footer-imgs img{
-    margin: 7px 5px;
+.footer-imgs img {
+  margin: 7px 5px;
 }
 
 .footer-msg p {
-    font-size: medium;
+  font-size: medium;
 }
 
-::placeholder{
-    color: #ffffff;
-    font-size: 14px;
+::placeholder {
+  color: #ffffff;
+  font-size: 14px;
 }
 
-h2{
-    font-size: 30px;
+h2 {
+  font-size: 30px;
 }
 
-
-footer div a{
-    text-decoration: none;
+footer div a {
+  text-decoration: none;
 }
-
 
 /* media queries */
 @media (max-width: 768px) {
-    .intro h1 {
+  .intro h1 {
     font-size: 2em;
-    }
+  }
 }
