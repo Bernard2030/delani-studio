@@ -23,7 +23,7 @@ Delani Studio specializes in designs and software to suit users needs. Our appro
 * jQuery
 * Bootstrap
 ## Setup/Installation Requirements
-* Live link to view the project; <a href="">Delani studio<a/>
+* Live link to view the project; Delani studio https://bernard2030.github.io/delani-studio/
 ## Known Bugs
 So far there are no known bags if you find any let me know through my contact details.
 ## Support and contact details
