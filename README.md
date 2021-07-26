@@ -1,8 +1,19 @@
 #### DELANI STUDIO
-#### By Bernard Opiyo Mukhenye
+# Delani studio is; a fictional  studio to showcase Delani's services and a way for clients to give their feedback through the contact form.
+#### Created Bernard Opiyo Mukhenye on 22/07/2021
 #### Description
-# A fictional science studio
-## Setup/Installation Requirements
+
+Delani Studio specializes in designs and software to suit users needs. Our approach involves design, development and product management to create exceptional products.
+## Setup Requirement/
+* Git 
+* Web browser of your choice.
+* Github
+
+## Installation Requirements
+* Copy the github repository url
+* Clone to your computer
+* Double click the index.html to go live/start your live server
+
 
 
 ## Technologies Used
@@ -11,8 +22,10 @@
 * Javascript
 * jQuery
 * Bootstrap
-## Screen Shorts
-
+## Setup/Installation Requirements
+* Live link to view the project; <a href="">Delani studio<a/>
+## Known Bugs
+So far there are no known bags if you find any let me know through my contact details.
 ## Support and contact details
 You can reach me through brobernard.254@gmail.com, for clarification on any issues regarding the project.
 ## LICENSE
